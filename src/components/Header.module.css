@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.website-logo {
+  margin-left: 24px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0;
+  }
+
+  .website-logo {
+    margin-left: 39px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .website-logo {
+    margin-left: 55px;
+  }
+}

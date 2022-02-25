@@ -6,6 +6,11 @@ html {
   padding: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background: #0b0d17;
   font-family: "Barlow Condensed", sans-serif;

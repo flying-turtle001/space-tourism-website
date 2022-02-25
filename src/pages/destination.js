@@ -3,19 +3,15 @@ import React from "react";
 import Wrapper from "../components/Wrapper";
 import Header from "../components/Header";
 
-const IndexPage = () => {
+const DestinationPage = () => {
   return (
     <div>
       <Header />
       <Wrapper>
-        <h1>Space</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          totam!
-        </p>
+        <h1>Destination</h1>
       </Wrapper>
     </div>
   );
 };
 
-export default IndexPage;
+export default DestinationPage;
