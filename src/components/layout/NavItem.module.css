@@ -36,14 +36,14 @@ a {
     letter-spacing: 2.36px;
   }
 
-  a {
+  .link-container a {
     display: inline-block;
     padding: 41px 0;
     border: 3px solid transparent;
   }
 
-  a:active,
-  a:focus {
+  .link-container a:active,
+  .link-container a:focus {
     border-bottom: 3px solid #ffffff;
   }
 }
