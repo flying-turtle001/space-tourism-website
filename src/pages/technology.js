@@ -1,7 +1,7 @@
 import React from "react";
 
-import Wrapper from "../components/Wrapper";
-import Header from "../components/Header";
+import Wrapper from "../components/layout/Wrapper";
+import Header from "../components/layout/Header";
 
 const TechnologyPage = () => {
   return (

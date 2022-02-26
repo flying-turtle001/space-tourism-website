@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import iconHamburger from "../assets/icons/icon-hamburger.svg";
-import iconClose from "../assets/icons/icon-close.svg";
+import iconHamburger from "../../assets/icons/icon-hamburger.svg";
+import iconClose from "../../assets/icons/icon-close.svg";
 
 import {
   navContainer,
