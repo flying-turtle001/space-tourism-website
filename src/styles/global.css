@@ -32,6 +32,8 @@ h4,
 
 h1 {
   font-size: 80px;
+  line-height: 100px;
+  margin: 16px 0;
 }
 
 h2 {
@@ -55,6 +57,10 @@ h5 {
   text-transform: uppercase;
 }
 
+p {
+  line-height: 25px;
+}
+
 .subheading-1 {
   font-size: 28px;
   text-transform: uppercase;
@@ -76,6 +82,8 @@ h5 {
 
   h1 {
     font-size: 150px;
+    line-height: 150px;
+    margin: 24px 0;
   }
 
   h2 {
@@ -93,6 +101,10 @@ h5 {
   h5 {
     font-size: 20px;
     letter-spacing: 3.38px;
+  }
+
+  p {
+    line-height: 28px;
   }
 
   .subheading-1 {

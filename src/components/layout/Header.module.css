@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding-top: 24px;
 }
 
 .website-logo {
@@ -22,7 +22,7 @@
 
 @media (min-width: 1024px) {
   .container {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 
   .website-logo {
