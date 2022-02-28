@@ -6,3 +6,20 @@
 .heading {
   margin-bottom: 1px;
 }
+
+@media (min-width: 640px) {
+  .heading {
+    margin-bottom: 8px;
+  }
+
+  .sub-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 121px;
+  }
+}
+
+@media (min-width: 1024px) {
+}

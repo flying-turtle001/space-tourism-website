@@ -19,3 +19,12 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
+@media (min-width: 640px) {
+  .container {
+    margin-top: 29px;
+  }
+}
+
+@media (min-width: 1024px) {
+}

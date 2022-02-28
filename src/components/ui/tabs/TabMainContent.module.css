@@ -4,3 +4,17 @@
   background: #383b4b;
   margin-top: 32px;
 }
+
+@media (min-width: 640px) {
+  .text-style {
+    width: 573px;
+    margin: auto;
+  }
+
+  .divider {
+    margin-top: 49px;
+  }
+}
+
+@media (min-width: 1024px) {
+}

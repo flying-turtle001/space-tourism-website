@@ -22,3 +22,19 @@
   color: rgba(255, 255, 255, 0.25);
   margin-right: 19px;
 }
+
+@media (min-width: 640px) {
+  .container {
+    background-image: url(../assets/images/background-destination-tablet.jpg);
+  }
+
+  .heading {
+    margin: 40px 0 60px 0;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+}
+
+@media (min-width: 1024px) {
+}

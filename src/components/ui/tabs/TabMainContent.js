@@ -1,11 +1,11 @@
 import React from "react";
 
-import { divider } from "./TabMainContent.module.css";
+import { textStyle, divider } from "./TabMainContent.module.css";
 
 const TabMainContent = ({ children }) => {
   return (
     <div>
-      <p>{children}</p>
+      <p className={textStyle}>{children}</p>
       <div className={divider}></div>
     </div>
   );
