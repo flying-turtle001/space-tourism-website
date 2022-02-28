@@ -1,0 +1,21 @@
+.container {
+  margin-top: 32px;
+}
+
+.headingStyle {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  text-transform: uppercase;
+  color: #d0d6f9;
+  margin-bottom: 12px;
+}
+
+.textStyle {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

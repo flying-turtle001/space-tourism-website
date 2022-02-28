@@ -1,0 +1,33 @@
+.img-container {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.img-style {
+  width: 170px;
+  margin: auto;
+  display: inherit;
+}
+
+.tabs-label-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.tab-label {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  color: #d0d6f9;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-label-active {
+  color: #ffffff;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ffffff;
+}
