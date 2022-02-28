@@ -37,4 +37,17 @@
 }
 
 @media (min-width: 1024px) {
+  .container {
+    background-image: url(../assets/images/background-destination-desktop.jpg);
+  }
+
+  .heading {
+    margin: 76px 0 64px 0;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+  }
+
+  .heading-nr {
+    margin-right: 28px;
+  }
 }

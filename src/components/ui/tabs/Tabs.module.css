@@ -59,4 +59,33 @@
 }
 
 @media (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .img-container {
+    margin: 0;
+  }
+
+  .img-style {
+    width: 445px;
+    margin: 0;
+    display: inherit;
+  }
+
+  .tabs-label-container {
+    justify-content: flex-start;
+  }
+
+  .tab-label,
+  .tab-label-active {
+    cursor: pointer;
+  }
+
+  .tab-label:hover {
+    border-color: #979797;
+  }
 }

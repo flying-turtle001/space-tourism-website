@@ -22,4 +22,17 @@
 }
 
 @media (min-width: 1024px) {
+  .container {
+    margin-top: 37px;
+    text-align: left;
+  }
+
+  .heading {
+    margin-bottom: 14px;
+  }
+
+  .sub-content-wrapper {
+    justify-content: flex-start;
+    gap: 79px;
+  }
 }
