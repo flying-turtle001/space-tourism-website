@@ -13,6 +13,7 @@ import {
 
 import Wrapper from "../components/layout/Wrapper";
 import Header from "../components/layout/Header";
+import PageHeading from "../components/ui/PageHeading";
 import Tabs from "../components/ui/tabs/Tabs";
 import Tab from "../components/ui/tabs/Tab";
 import TabMainContent from "../components/ui/tabs/TabMainContent";
@@ -24,10 +25,7 @@ const DestinationPage = () => {
       <Header />
       <Wrapper>
         {/* Page heading */}
-        <h1 className={heading}>
-          <span className={headingNr}>01</span>
-          Pick your destination
-        </h1>
+        <PageHeading preHeadingText="01">Pick your destination</PageHeading>
 
         {/* Tabs component to render different tabs */}
         <Tabs>

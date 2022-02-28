@@ -6,48 +6,14 @@
   background-size: cover;
 }
 
-.heading {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 2.7px;
-  line-height: 100%;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.heading-nr {
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.25);
-  margin-right: 19px;
-}
-
 @media (min-width: 640px) {
   .container {
     background-image: url(../assets/images/background-destination-tablet.jpg);
-  }
-
-  .heading {
-    margin: 40px 0 60px 0;
-    text-align: left;
-    font-size: 20px;
-    letter-spacing: 3.38px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
     background-image: url(../assets/images/background-destination-desktop.jpg);
-  }
-
-  .heading {
-    margin: 76px 0 64px 0;
-    font-size: 28px;
-    letter-spacing: 4.72px;
-  }
-
-  .heading-nr {
-    margin-right: 28px;
   }
 }

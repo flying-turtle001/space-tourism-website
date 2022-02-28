@@ -1,0 +1,37 @@
+.heading-style {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.pre-heading-style {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.25);
+  margin-right: 19px;
+}
+
+@media (min-width: 640px) {
+  .heading-style {
+    margin: 40px 0 60px 0;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-style {
+    margin: 76px 0 64px 0;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+  }
+
+  .pre-heading-style {
+    margin-right: 28px;
+  }
+}
