@@ -1,0 +1,40 @@
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+}
+
+.img-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #383b4b;
+}
+
+.img-style {
+  width: auto;
+  height: 223px;
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+.role-style {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+}
+
+.crew-name-style {
+  margin-bottom: 16px;
+}

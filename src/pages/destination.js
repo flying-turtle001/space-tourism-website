@@ -5,11 +5,7 @@ import Mars from "../assets/images/image-mars.png";
 import Europa from "../assets/images/image-europa.png";
 import Titan from "../assets/images/image-titan.png";
 
-import {
-  container,
-  heading,
-  headingNr,
-} from "../styles/destination.module.css";
+import { container } from "../styles/destination.module.css";
 
 import Wrapper from "../components/layout/Wrapper";
 import Header from "../components/layout/Header";

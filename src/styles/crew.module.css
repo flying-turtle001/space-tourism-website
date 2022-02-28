@@ -1,0 +1,19 @@
+.container {
+  height: 100vh;
+  background-image: url(../assets/images/background-crew-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+@media (min-width: 640px) {
+  .container {
+    background-image: url(../assets/images/background-crew-tablet.jpg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    background-image: url(../assets/images/background-crew-desktop.jpg);
+  }
+}
