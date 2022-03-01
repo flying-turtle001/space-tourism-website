@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 import Wrapper from "../components/layout/Wrapper";
 import Header from "../components/layout/Header";
@@ -37,9 +37,13 @@ const CrewPage = () => {
         <PageHeading preHeadingText="02">Meet your crew</PageHeading>
 
         <Swiper
-          modules={[Pagination]}
+          modules={[Pagination, Autoplay]}
           spaceBetween={32}
           pagination={paginationOptions}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           className="crew-swiper"
         >
           {/* Custom Pagination */}

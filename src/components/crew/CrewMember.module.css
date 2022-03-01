@@ -38,3 +38,51 @@
 .crew-name-style {
   margin-bottom: 16px;
 }
+
+@media (min-width: 640px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .text-wrapper {
+    width: 492px;
+  }
+
+  .role-style {
+    font-size: 24px;
+  }
+
+  .img-wrapper {
+    border: none;
+  }
+
+  .img-style {
+    width: auto;
+    height: 572px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .text-wrapper {
+    width: 50%;
+    text-align: left;
+  }
+
+  .role-style {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .crew-name-style {
+    margin-bottom: 27px;
+  }
+
+  .img-style {
+    height: 650px;
+  }
+}

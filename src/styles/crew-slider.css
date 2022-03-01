@@ -28,3 +28,29 @@
 .crew-bullet-active {
   background: #ffffff;
 }
+
+@media (min-width: 640px) {
+  .crew-swiper {
+    height: 100%;
+  }
+
+  .crew-pagination-wrapper {
+    top: 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .crew-swiper {
+    margin-top: -120px;
+    width: 100vw;
+  }
+
+  .crew-pagination-wrapper {
+    justify-content: flex-start;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    cursor: pointer;
+  }
+}
