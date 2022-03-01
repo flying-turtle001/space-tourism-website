@@ -1,0 +1,5 @@
+@media (min-width: 640px) {
+  .nav-item-active {
+    border-bottom: 3px solid #ffffff !important;
+  }
+}
