@@ -6,7 +6,7 @@ import { Pagination } from "swiper";
 import Wrapper from "../components/layout/Wrapper";
 import Header from "../components/layout/Header";
 import PageHeading from "../components/ui/PageHeading";
-import Crew from "../components/crew/Crew";
+import CrewMember from "../components/crew/CrewMember";
 
 import DouglasHurley from "../assets/images/image-douglas-hurley.png";
 import MarkShuttleworth from "../assets/images/image-mark-shuttleworth.png";
@@ -46,7 +46,7 @@ const CrewPage = () => {
           <div className="crew-pagination-wrapper"></div>
 
           <SwiperSlide>
-            <Crew
+            <CrewMember
               crewImg={DouglasHurley}
               role="Commander"
               crewName="Douglas Hurley"
@@ -54,11 +54,11 @@ const CrewPage = () => {
               Douglas Gerald Hurley is an American engineer, former Marine Corps
               pilot and former NASA astronaut. He launched into space for the
               third time as commander of Crew Dragon Demo-2.
-            </Crew>
+            </CrewMember>
           </SwiperSlide>
 
           <SwiperSlide>
-            <Crew
+            <CrewMember
               crewImg={MarkShuttleworth}
               role="Mission Specialist"
               crewName="Mark Shuttleworth"
@@ -67,20 +67,24 @@ const CrewPage = () => {
               company behind the Linux-based Ubuntu operating system.
               Shuttleworth became the first South African to travel to space as
               a space tourist.
-            </Crew>
+            </CrewMember>
           </SwiperSlide>
 
           <SwiperSlide>
-            <Crew crewImg={VictorGlover} role="PILOT" crewName="Victor Glover">
+            <CrewMember
+              crewImg={VictorGlover}
+              role="PILOT"
+              crewName="Victor Glover"
+            >
               Pilot on the first operational flight of the SpaceX Crew Dragon to
               the International Space Station. Glover is a commander in the U.S.
               Navy where he pilots an F/A-18.He was a crew member of Expedition
               64, and served as a station systems flight engineer.
-            </Crew>
+            </CrewMember>
           </SwiperSlide>
 
           <SwiperSlide>
-            <Crew
+            <CrewMember
               crewImg={AnoushehAnsari}
               role="Flight Engineer"
               crewName="Anousheh Ansari"
@@ -89,7 +93,7 @@ const CrewPage = () => {
               Prodea Systems. Ansari was the fourth self-funded space tourist,
               the first self-funded woman to fly to the ISS, and the first
               Iranian in space.
-            </Crew>
+            </CrewMember>
           </SwiperSlide>
         </Swiper>
       </Wrapper>

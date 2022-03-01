@@ -7,9 +7,9 @@ import {
   textWrapper,
   roleStyle,
   crewNameStyle,
-} from "./Crew.module.css";
+} from "./CrewMember.module.css";
 
-const Crew = ({ crewImg, role, crewName, children }) => {
+const CrewMember = ({ crewImg, role, crewName, children }) => {
   return (
     <div className={contentWrapper}>
       <div className={imgWrapper}>
@@ -25,4 +25,4 @@ const Crew = ({ crewImg, role, crewName, children }) => {
   );
 };
 
-export default Crew;
+export default CrewMember;
