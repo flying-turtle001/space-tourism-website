@@ -7,6 +7,7 @@
   top: 0;
   right: 0;
   padding: 34px 26px 0 26px;
+  z-index: 100;
 }
 
 .desk-nav-wrapper {

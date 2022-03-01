@@ -15,6 +15,8 @@
   gap: 20px;
   margin: 32px 0;
   height: fit-content;
+  z-index: 50;
+  cursor: pointer;
 }
 
 .crew-bullet {
@@ -54,7 +56,5 @@
     top: unset;
     left: 0;
     bottom: 0;
-    z-index: 100;
-    cursor: pointer;
   }
 }
