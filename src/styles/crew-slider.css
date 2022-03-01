@@ -20,9 +20,13 @@
 .crew-bullet {
   width: 10px;
   height: 10px;
-  background: #979797;
+  background: rgba(255, 255, 255, 0.17);
   border: 1px solid transparent;
   border-radius: 50%;
+}
+
+.crew-bullet:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .crew-bullet-active {
