@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "gatsby";
 
-import "../../styles/nav-item.css";
+import "../../../styles/nav/nav-item.css";
 
 import {
   linkContainer,

@@ -3,23 +3,23 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
-import Wrapper from "../components/layout/Wrapper";
-import Header from "../components/layout/Header";
-import PageHeading from "../components/ui/PageHeading";
+import Wrapper from "../components/layout/wrapper/Wrapper";
+import Header from "../components/layout/header/Header";
+import PageHeading from "../components/ui/heading/PageHeading";
 import CrewMember from "../components/crew/CrewMember";
 
-import DouglasHurley from "../assets/images/image-douglas-hurley.png";
-import MarkShuttleworth from "../assets/images/image-mark-shuttleworth.png";
-import VictorGlover from "../assets/images/image-victor-glover.png";
-import AnoushehAnsari from "../assets/images/image-anousheh-ansari.png";
+import DouglasHurley from "../assets/images/crew/image-douglas-hurley.png";
+import MarkShuttleworth from "../assets/images/crew/image-mark-shuttleworth.png";
+import VictorGlover from "../assets/images/crew/image-victor-glover.png";
+import AnoushehAnsari from "../assets/images/crew/image-anousheh-ansari.png";
 
 import "swiper/css";
 import "swiper/css/bundle";
 
 // Custom styles for slider on this page
-import "../styles/crew-slider.css";
+import "../styles/slider/crew-slider.css";
 
-import { container } from "../styles/crew.module.css";
+import { container } from "../styles/page-styles/crew.module.css";
 
 const CrewPage = () => {
   const paginationOptions = {

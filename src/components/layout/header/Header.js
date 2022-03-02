@@ -1,10 +1,10 @@
 import React from "react";
 
-import logo from "../../assets/icons/logo.svg";
+import logo from "../../../assets/icons/logo.svg";
 
 import { container, websiteLogo } from "./Header.module.css";
 
-import Navbar from "./Navbar";
+import Navbar from "../nav/Navbar";
 
 const Header = () => {
   return (

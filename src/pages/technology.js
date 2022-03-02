@@ -3,24 +3,24 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
-import Wrapper from "../components/layout/Wrapper";
-import Header from "../components/layout/Header";
-import PageHeading from "../components/ui/PageHeading";
+import Wrapper from "../components/layout/wrapper/Wrapper";
+import Header from "../components/layout/header/Header";
+import PageHeading from "../components/ui/heading/PageHeading";
 import Terminology from "../components/technology/Terminology";
 
-import LaunchVehicleLandscape from "../assets/images/image-launch-vehicle-landscape.jpg";
-import LaunchVehiclePortrait from "../assets/images/image-launch-vehicle-portrait.jpg";
-import SpaceportLandscape from "../assets/images/image-spaceport-landscape.jpg";
-import SpaceportPortrait from "../assets/images/image-spaceport-portrait.jpg";
-import SpaceCapsuleLandscape from "../assets/images/image-space-capsule-landscape.jpg";
-import SpaceCapsulePortrait from "../assets/images/image-space-capsule-portrait.jpg";
+import LaunchVehicleLandscape from "../assets/images/technology/image-launch-vehicle-landscape.jpg";
+import LaunchVehiclePortrait from "../assets/images/technology/image-launch-vehicle-portrait.jpg";
+import SpaceportLandscape from "../assets/images/technology/image-spaceport-landscape.jpg";
+import SpaceportPortrait from "../assets/images/technology/image-spaceport-portrait.jpg";
+import SpaceCapsuleLandscape from "../assets/images/technology/image-space-capsule-landscape.jpg";
+import SpaceCapsulePortrait from "../assets/images/technology/image-space-capsule-portrait.jpg";
 
 import "swiper/css";
 import "swiper/css/bundle";
 
-import "../styles/technology-slider.css";
+import "../styles/slider/technology-slider.css";
 
-import { container } from "../styles/technology.module.css";
+import { container } from "../styles/page-styles/technology.module.css";
 
 const TechnologyPage = () => {
   const paginationOptions = {

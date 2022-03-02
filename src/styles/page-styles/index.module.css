@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  background-image: url(../assets/images/background-home-mobile.jpg);
+  background-image: url(../../assets/images/home/background-home-mobile.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -23,7 +23,7 @@
 
 @media (min-width: 640px) {
   .container {
-    background-image: url(../assets/images/background-home-tablet.jpg);
+    background-image: url(../../assets/images/home/background-home-tablet.jpg);
   }
 
   .content-wrapper {
@@ -42,7 +42,7 @@
 
 @media (min-width: 1024px) {
   .container {
-    background-image: url(../assets/images/background-home-desktop.jpg);
+    background-image: url(../../assets/images/home/background-home-desktop.jpg);
     background-position: top;
   }
 

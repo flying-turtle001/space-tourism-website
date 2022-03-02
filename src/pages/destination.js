@@ -1,15 +1,15 @@
 import React from "react";
 
-import Moon from "../assets/images/image-moon.png";
-import Mars from "../assets/images/image-mars.png";
-import Europa from "../assets/images/image-europa.png";
-import Titan from "../assets/images/image-titan.png";
+import Moon from "../assets/images/destination/image-moon.png";
+import Mars from "../assets/images/destination/image-mars.png";
+import Europa from "../assets/images/destination/image-europa.png";
+import Titan from "../assets/images/destination/image-titan.png";
 
-import { container } from "../styles/destination.module.css";
+import { container } from "../styles/page-styles/destination.module.css";
 
-import Wrapper from "../components/layout/Wrapper";
-import Header from "../components/layout/Header";
-import PageHeading from "../components/ui/PageHeading";
+import Wrapper from "../components/layout/wrapper/Wrapper";
+import Header from "../components/layout/header/Header";
+import PageHeading from "../components/ui/heading/PageHeading";
 import Tabs from "../components/ui/tabs/Tabs";
 import Tab from "../components/ui/tabs/Tab";
 import TabMainContent from "../components/ui/tabs/TabMainContent";

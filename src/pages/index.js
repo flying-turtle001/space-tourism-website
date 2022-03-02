@@ -6,11 +6,11 @@ import {
   contentWrapper,
   textWrapper,
   btnWrapper,
-} from "../styles/index.module.css";
+} from "../styles/page-styles/index.module.css";
 
-import Wrapper from "../components/layout/Wrapper";
-import Header from "../components/layout/Header";
-import BaseButton from "../components/ui/BaseButton";
+import Wrapper from "../components/layout/wrapper/Wrapper";
+import Header from "../components/layout/header/Header";
+import BaseButton from "../components/ui/button/BaseButton";
 
 const IndexPage = () => {
   return (
